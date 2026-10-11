@@ -1,0 +1,27 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_kotlinx_coroutines-x86_64-v2.so",
+		    "libdummy_ext_kotlinx_coroutines.so",
+		    "libdummy_shared_kotlinx-atomicfu-x86_64-v2.so",
+		    "libdummy_shared_kotlinx-atomicfu.so",
+		    "libdummy_shared_kotlinx-coroutines-android-x86_64-v2.so",
+		    "libdummy_shared_kotlinx-coroutines-android.so",
+		    "libdummy_shared_kotlinx-coroutines-device-x86_64-v2.so",
+		    "libdummy_shared_kotlinx-coroutines-device.so",
+		    "libdummy_shared_kotlinx-coroutines-host-x86_64-v2.so",
+		    "libdummy_shared_kotlinx-coroutines-host.so",
+		    "libdummy_shared_kotlinx-coroutines-x86_64-v2.so",
+		    "libdummy_shared_kotlinx-coroutines.so",
+		    "libdummy_shared_kotlinx_atomicfu-x86_64-v2.so",
+		    "libdummy_shared_kotlinx_atomicfu.so",
+		    "libdummy_shared_kotlinx_coroutines-x86_64-v2.so",
+		    "libdummy_shared_kotlinx_coroutines.so",
+		    "libdummy_shared_kotlinx_coroutines_android-x86_64-v2.so",
+		    "libdummy_shared_kotlinx_coroutines_android.so",
+		    "libdummy_shared_kotlinx_coroutines_device-x86_64-v2.so",
+		    "libdummy_shared_kotlinx_coroutines_device.so",
+		    "libdummy_shared_kotlinx_coroutines_host-x86_64-v2.so",
+		    "libdummy_shared_kotlinx_coroutines_host.so"
+	],
+	"visible": true
+}
