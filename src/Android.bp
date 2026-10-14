@@ -1,0 +1,59 @@
+// Extractive JVM/Maven apex: jars staged under share/ dirs
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_import {
+    name: "kotlinx_atomicfu",
+    jars: ["share/kotlinx-atomicfu/kotlinx-atomicfu__atomicfu-jvm-0.23.2.jar"],
+    host_supported: true,
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
+}
+
+java_import {
+    name: "kotlinx_coroutines",
+    jars: ["share/kotlinx-coroutines/kotlinx-coroutines__kotlinx-coroutines-core-jvm-1.7.3.jar"],
+    host_supported: true,
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
+}
+
+java_import {
+    name: "kotlinx_coroutines_android",
+    jars: ["share/kotlinx-coroutines-android/kotlinx-coroutines-android__kotlinx-coroutines-android-1.7.3.jar"],
+    host_supported: true,
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
+}
+
+java_import {
+    name: "kotlinx_coroutines_device",
+    jars: ["share/kotlinx-coroutines-device/kotlinx-coroutines-device__kotlinx-coroutines-android-1.7.3.jar"],
+    host_supported: true,
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
+}
+
+java_import {
+    name: "kotlinx_coroutines_host",
+    jars: ["share/kotlinx-coroutines-host/kotlinx-coroutines-host__kotlinx-coroutines-core-jvm-1.7.3.jar"],
+    host_supported: true,
+    min_sdk_version: "28",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
+}
