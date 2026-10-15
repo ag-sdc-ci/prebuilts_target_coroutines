@@ -49,3 +49,40 @@ java_import {
     host_supported: true,
     prefer: true,
 }
+
+java_import {
+    name: "kotlinx_atomicfu",
+    jars: [
+        "src/share/kotlinx-atomicfu/kotlinx-atomicfu__atomicfu-jvm-0.23.2.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "kotlinx_coroutines",
+    jars: [
+        "src/share/kotlinx-coroutines/kotlinx-coroutines__kotlinx-coroutines-core-jvm-1.7.3.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "kotlinx_coroutines_android",
+    jars: [
+        "src/share/kotlinx-coroutines-android/kotlinx-coroutines-android__kotlinx-coroutines-android-1.7.3.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "kotlinx_coroutines_host",
+    jars: [
+        "src/share/kotlinx-coroutines-host/kotlinx-coroutines-host__kotlinx-coroutines-core-jvm-1.7.3.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
