@@ -86,3 +86,13 @@ java_import {
     prefer: true,
 }
 
+java_import {
+    name: "kotlinx_coroutines_guava",
+    jars: [
+        "src/share/kotlinx-coroutines/kotlinx-coroutines__kotlinx-coroutines-core-jvm-1.7.3.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
+
+
